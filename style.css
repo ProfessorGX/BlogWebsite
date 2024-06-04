@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.content {
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 2px 3px 1px #ccc;
+    background-color: white;
+}
+
+header {
+    max-width: 1200px;
+    margin: 10px auto;
+    margin-top: -10px;
+
+
+}
+
+.text {
+    font-size: 35px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding: 12px 0px;
+    align-items: center;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-weight: 400;
+}
+
+nav ul li {
+    color: black;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.second {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.ftext {
+    text-align: center;
+    font-size: 30px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.fimage img {
+    border-radius: 20px;
+}
+
+.ftext h3 {
+    font-weight: 300;
+}
+
+.second-text {
+    margin: 10px;
+}
+
+.second-text h3,
+p {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.second-text h3 {
+    font-size: 25px;
+}
+
+button {
+    margin-top: 10px;
+    background-color:plum;
+    padding: 5px 10px;
+    color:black;
+    font-weight: bolder;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: black;
+    color: aqua;
+}
+
+.simage img {
+    margin-left: 20px;
+    height: 100%;
+}
+
+.third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    border-radius: 8px;
+    border: 1px solid rgb(232, 232, 232);
+    box-shadow: 1px 1px 3px 1px #ccc;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover{
+   transform: scale(1.009);
+   transition: 0.3s ease-in-out;
+}
+
+.card-in{
+    padding: 10px;
+}
+
+.card-in h4 {
+    font-size: 22px;
+   padding-bottom: 10px;
+}
+
+.card img{
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.forth{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    box-shadow: 1px 2px 3px 1px #ccc;
+}
+
+.lorem h4{
+    font-size: 28px;
+    padding-bottom: 13px;
+}
+
+.forth-image img{
+    margin-left: 18px;
+    height: 100%;
+    margin-bottom: -4px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+padding: 20px 150px;
+    background-color: #ccc;
+    margin-top: 50px;
+    font-size: 20px;
+   
+}
+
+.fa{
+    padding: 0px 8px;
+}
+
+.fa i{
+   align-items: flex-end;
+}
